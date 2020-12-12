@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta data is the description and keywords, which are used by google to get more info of what exactly is inside the webpage -->
+    <title>HTML Cheatsheet</title>
+</head>
+<body>
+    <a href="blog.html">Go to blog.html</a>
+    <hr>
+    <!-- Headings -->
+    <h1>Heading one</h1>
+    <h2>Heading two</h2>
+    <h3>Heading three</h3>
+    <h4>Heading four</h4>
+    <h5>Heading five</h5>
+    <h6>Heading six</h6>
+
+    <!-- Paragraphs -->
+    <!-- to generate random text of 10 words, lorem10 -->
+    <p>
+        Lorem, <strong>ipsum</strong> dolor sit amet <em>consectetur</em> adipisicing elit. Alias, sequi.
+    </p>
+    <!-- strong - for bold, em for italic -->
+    <!-- a tag to link to another site -->
+    <!-- target= _blank helps to make sure when we click the a tag, it opens the site in another TAB -->
+    <p>Lorem ipsum <a href="http://google.com" target="_blank">dolor</a> sit amet, consectetur adipisicing elit. Officia, reiciendis!</p>
+
+    <!-- Lists -->
+    <!--Unordered list -->
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+    </ul>
+    <!-- Ordered list - gives numbered list automatically -->
+    <ol>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+    </ol>
+
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>bob</td>
+                <td>bob@gmail.com</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>tim</td>
+                <td>tim@gmail.com</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>mary@gmail.com</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <!-- hr is horizontal rule - gives a line on the page -->
+    <br>
+    <!-- Forms -->
+    <!-- labels n input are inline, so if u want u can wrap them in a div to prevent them from being inline -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First name</label>
+            <input type="text" name="firstName" placeholder="Enter your first name">
+        </div>
+        <br>
+        <div>
+            <label>Last name</label>
+            <input type="text" name="lastName" placeholder="Enter your last name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+            <!-- using type email will give some form validation and ensure its a valid email -->
+        </div>
+        <div>
+            <label>Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label>Gender</label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value = "30">
+            <!-- 30 is a predefienmd value, we can change if we want -->
+        </div>
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="Birthday" id="">
+        </div>
+        <br>
+        <!-- submit button -->
+        <input type="submit" name="submit" value="submit">
+        <!-- when we click, this will get submitted to process.php -->
+    </form>
+
+    <!-- Button -->
+    <button>Click me</button>
+    <br>
+    
+    <!-- Image -->
+    <a href="images/sample.jpg">
+        <img src="images/sample.jpg" alt="my sample img" width="200" height="250">
+    </a>
+    <!-- by wrapping img tag with a tag, when we click img, it will open the image in full size on .../sample.jpg -->
+
+    <!-- if cannot retrieve image, alt's description will be showin instead -->
+
+    <!-- Quotations -->
+    <blockquote cite="https://www.straitstimes.com/">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quibusdam numquam aspernatur animi blanditiis nesciunt nihil delectus sint temporibus ipsam cupiditate minus, consequuntur iste repellat ipsa voluptatem, ad cum! Eveniet?
+    </blockquote>
+    <!-- abbreviation - hover over WWW will show the full form  -->
+    <p>The <abbr title="world wide web">WWW</abbr > is awesome</p>
+    
+    <p><cite>HTML Crash Course</cite> is lit</p>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+HTML 
+- hyperText mark up language 
+- building blocks of the web 
+- index.html is the root / homepage of the website
+
+http:// www. something.com - loads the index.html file 
+
+http://www.something.com/about.html - loads about.html 
+
+Inline elemenets- span, img, a 
+- dont startt on a new line
+- take only the necessary width 
+
+Block elements : div, h1-h6, p , form 
+- start on a new line
+- take full width avail
+
+HTML 5 Semantic Tags
+- a Semantic element clearly descripes its meaning to both the browser and the developer
+eg header, footer, aside, main, article, nav, section 
+
