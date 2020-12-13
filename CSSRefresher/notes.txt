@@ -1,0 +1,34 @@
+CSS
+- Advanced CSS - Flexbox, animation, transitions, pseudo elements
+
+What is CSS 
+- Cascading Stylesheets
+- not a prog language
+- stylesheet/styling language 
+- used for website layout and design 
+- can be extended with sass/less -> extend the functionality of CSS using variables etc 
+
+
+
+3 methods of adding CSS 
+-Inline CSS : directly in the html elemenet - not recommended
+- Internal CSS : using <style> tags within a single document
+- External CSS : Linking an external .css file 
+
+Positioning in CSS element
+Static
+- renders element in order of doc flow
+
+Relatiove
+- elemenjt is positioned relative to its normal position 
+
+Absolute 
+- target whatever posn we want inside a relative elemenet
+Fixed 
+- fixed posn to browser/window
+
+Initial
+- sets property to its default value
+
+Inherit
+-Inherit whatever its parent element
